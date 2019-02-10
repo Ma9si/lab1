@@ -20,6 +20,9 @@ switch(op)
 	case '/':
 		printf("%d",a/b);
 		break;
+	default:
+		printf("Enter valid operation ");
+		break;
 }
 
 return 0;
